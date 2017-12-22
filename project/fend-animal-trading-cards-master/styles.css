@@ -1,12 +1,13 @@
 /* add your CSS here */
-#interest{
+.interest{
 	font-style: italic;
 }
+
 img {
     border: groove;
     border-radius: 4px;
     padding: 0px;
-    width: 535px;
+    width: 300px;
 }
 
 li span{
@@ -24,18 +25,22 @@ body{
 	//color:grey;
 
 }
+
 body div{
 	background-color:#ef9a9a;
 }
+
 #info{
 	border-style: groove;
 	margin: 10px;
 }
+
 h3{
 	margin-left: 20px;
 	font-size: 28px;
 
 }
+
 #caty{
 	margin-left: 11px;
 }
