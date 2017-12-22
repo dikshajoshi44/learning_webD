@@ -1,5 +1,5 @@
 /* add your CSS here */
-.interest{
+.interest {
 	font-style: italic;
 }
 
@@ -10,7 +10,7 @@ img {
     width: 300px;
 }
 
-li span{
+li span {
 	font-weight: bold;
 }
 
@@ -19,33 +19,33 @@ ul {
 	padding-left: 10px;
 }
 
-body{
+body {
 	border-style: outset;
 	width: 350px;
 	/*color:grey;*/
 
 }
 
-body div{
-	background-color:#ef9a9a;
+body div {
+	background-color: #ef9a9a;
 }
 
-#info{
+#info {
 	border-style: groove;
 	margin: 10px;
 }
 
-h3{
+h3 {
 	margin-left: 20px;
 	font-size: 28px;
 
 }
 
-#caty{
+#caty {
 	margin-left: 11px;
 }
 
-p{
-	padding:10px;
+p {
+	padding: 10px;
 }
 
