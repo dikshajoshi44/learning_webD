@@ -89,3 +89,12 @@ p {
   font-weight: 600;
   color: rgb(43, 93, 240);
 }
+
+@media screen and (max-width: 600px) {
+   .container {
+  width: 100%px;
+  margin: 0 auto;
+}
+
+
+}
