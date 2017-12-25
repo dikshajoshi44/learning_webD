@@ -91,9 +91,24 @@ p {
 }
 
 @media screen and (max-width: 600px) {
-   .container {
-  width: 100%px;
-  margin: 0 auto;
+
+.container {
+                  width: 100%px;
+                  margin: 0 auto;
+}
+
+.picture, .resume {
+                  position: fixed;
+                  width: 100%;
+                  padding: 3.125rem;
+}
+
+.tag {
+                  text-transform: uppercase;
+                  font-style: italic;
+                  font-weight: 600;
+                  color: rgb(43, 93, 240);
+                  padding:1.5em;
 }
 
 
