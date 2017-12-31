@@ -8,5 +8,6 @@ const teacher = {
   room: 'N231'
 }
 
-let message = student.name + ' please see ' + teacher.name + ' in ' + teacher.room + ' to pick up your report card.';
+//let message = student.name + ' please see ' + teacher.name + ' in ' + teacher.room + ' to pick up your report card.';
 let message = `${student.name} please see ${teacher.name} in ${teacher.room} to pick up your report card.`;
+console.log(message);
