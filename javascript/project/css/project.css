@@ -1,0 +1,27 @@
+.parent{
+  background-color:grey;
+  width:50%;
+  height:200px;
+}
+#one{
+  background-color:white;
+  float:right;
+  margin-top:2%;
+}
+.box{
+  width:500px;
+  height:100px;
+  position:fixed;
+  right:5px;
+  top:1px;
+  
+}
+.btn.btn-primary{
+  position:absolute;
+  right:1px;
+  top:1px;
+  
+}
+body{
+  background-color:grey;
+}
