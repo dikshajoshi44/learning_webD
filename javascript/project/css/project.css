@@ -1,27 +1,141 @@
-.parent{
-  background-color:grey;
-  width:50%;
-  height:200px;
+.header_logo {
+    display: flex;
+    justify-content: space-between;
 }
-#one{
-  background-color:white;
-  float:right;
-  margin-top:2%;
-}
-.box{
-  width:500px;
-  height:100px;
-  position:fixed;
-  right:5px;
-  top:1px;
+
+#name {
+    text-align: right;
+    font: 5em Courier New;
+    color : #2d3c49  ;
   
 }
-.btn.btn-primary{
-  position:absolute;
-  right:1px;
-  top:1px;
-  
+
+#profession {
+    text-align: right;
+    color : #7d97ad  ;
+    font-family : "Times New Roman";
+
 }
-body{
-  background-color:grey;
+
+.images {
+    width: 28%;
+    margin-top: 5%;
+    text-align: center;
+
 }
+
+.gallery-inside {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images img {
+    width: 100%;
+}
+
+.about {
+    padding: 15px;
+    text-align: center;
+    font: 25px Georgia;
+    color: #2d3c49;
+    
+}
+
+.gallery {
+    margin-top: 5%;
+
+}
+
+.github {
+    padding: 15px;
+    text-align: center;
+    font: Times New Roman;
+    color: #7d97ad;
+    
+}
+
+.outer-image {
+    width: 100%;
+}
+
+.outer-image img {
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    width: 15%;
+}
+
+.logo img {
+    width: 83%;
+    height: auto;
+}
+
+#features {
+    font: 35px Lucida Console;
+    color: #7d97ad;
+}
+
+.line {
+  height: 5px;
+  margin: 35px 0; 
+  background-color: #7d97ad;
+
+}
+
+@media screen and (max-width:767px){
+
+    #name {
+      font: 2em Courier New;    
+    }
+
+    .about {
+      font: 15px Georgia;
+    
+    }
+
+    .logo {
+      width: 25%;
+    }
+
+    .gallery-inside {
+      flex-direction: column;
+
+    }
+
+    .images {
+      width: 100%;
+    }
+
+    #features {
+    font: 20px Lucida Console;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
